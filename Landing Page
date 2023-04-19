@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passport Seva Kendra</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Add custom styles here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      background-color: #337ab7;
+      color: #fff;
+      padding: 15px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .jumbotron {
+      background-image: url('https://www.example.com/images/passport.jpg');
+      background-size: cover;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .jumbotron h2 {
+      font-size: 48px;
+      color: #fff;
+      text-shadow: 2px 2px #000;
+      text-align: center;
+    }
+    .btn-primary {
+      background-color: #337ab7;
+      border-color: #337ab7;
+    }
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active {
+      background-color: #23527c;
+      border-color: #23527c;
+    }
+    .services {
+      padding: 50px;
+    }
+    .services h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+    .services .row {
+      margin-bottom: 30px;
+    }
+    .services .col-md-4 {
+      text-align: center;
+    }
+    .services .col-md-4 i {
+      font-size: 72px;
+      color: #337ab7;
+      margin-bottom: 15px;
+    }
+    .services .col-md-4 h3 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    .services .col-md-4 p {
+      font-size: 18px;
+    }
+    .footer {
+      background-color: #f5f5f5;
+      padding: 15px;
+      text-align: center;
+    }
+    .footer p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="container">
+      <h1>Passport Seva Kendra</h1>
+    </div>
+  </div>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="container">
+      <h2>Apply for your passport online</h2>
+      <a href="#" class="btn btn-lg btn-primary">Apply Now</a>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="glyphicon glyphicon-user"></i>
+          <h3>Apply for a new passport</h3>
+          <p>Apply for a new Indian passport with ease.</p>
+        </div>
+        <div class="col-md-4">
+         
